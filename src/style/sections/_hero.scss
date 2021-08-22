@@ -4,7 +4,7 @@
   display: flex;
   align-items: center;
   border-bottom: 0px;
-  background: $white-color;
+  background: #0C0250;
   font-weight: 400;
   color: $dark-blue-text;
   padding: 0rem 5.6rem;
@@ -23,6 +23,7 @@
   background: url("/src/assets/background.jpg");
   background-position: center;
   background-size: cover; 
+  opacity: 0.85;
 
   @include respond(phone) {
     padding: 0rem $default-font-size;
@@ -31,6 +32,7 @@
   .hero-title {
     font-size: 5.6rem;
     font-weight: 700;
+    color: #c6c6c9;
     margin-bottom: 3.2rem;
     text-align: left;
 
