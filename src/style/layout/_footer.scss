@@ -8,8 +8,8 @@
   }
 
   &__text {
-    color: darken($white-color, 50%);
-    font-size: 1.3rem;
+    font-color: darken($white-color, 50%);
+    font-size: 1.4rem;
 
     a {
       color: darken($white-color, 50%);
