@@ -31,6 +31,7 @@
     $secondary-color 100%
   );
   border-image-slice: 1;
+  font-weight: bold;
   @include supportIE11() {
     color: $secondary-color !important;
     &:hover {
